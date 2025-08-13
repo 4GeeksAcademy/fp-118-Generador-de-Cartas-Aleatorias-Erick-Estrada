@@ -1,5 +1,55 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
-    background: white;
+body {
+    background: green;
+    justify-content: center;
+}
+button{
+display: flex;
+justify-self: center;
+margin: 3%;
+background: orange;
+}
+
+#card {
+    justify-self: center;
+    background-image: url(../src/bg.png);
+    height: 360px;
+    width: 250px;
+    padding: 1%;
+    border-radius: 10px;
+    margin-top: 3%;
+}
+
+#palo2 {
+    transform: rotate(180deg);
+}
+
+#palo1,
+#palo2 {
+    font-size: 70px;
+}
+
+#mano {
+    display: flex;
+    font-size: 80px;
+    justify-content: center;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+p{
+    margin: 0;
+}
+
+#contador{
+    color: red;
+    justify-self: center;
+    font-size: 200%;
+}
+#user{
+    justify-self: center;
+}
+#contador{
+    margin-top: 2%;
 }
